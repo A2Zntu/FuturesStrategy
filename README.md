@@ -16,13 +16,13 @@ Data
 Strategy Development 
 -------------- 
 * Strategy1: Buy and Hold  
-------------
+---
 * Strategy2: Based on dailyOIchange
    * Buy @ OpenPrice_T+1 and offset at the @ closePrice_T+1 if 
        * the dailyOIchange is positive;  
    * Sell @ OpenPrice_T+1 and offset at the @ closePrice_T+1 if 
        * the dailyOIchange is negative
-------------
+---
 * Strategy3: Based on ForOIchange
    * Buy @ OpenPrice_T+1 and offset at the @ closePrice_T+1 if 
        * the Foreign Investor's Call OIchange is positive
@@ -31,7 +31,7 @@ Strategy Development
        * the Foreign Investor's Call OIchange is negative
        * the Foreign Investor's Put OIchange is positive
    * Else, do nothing
-------------   
+---  
 * Strategy4: 
     Combine strategy2 and strategy3
     * Buy @ OpenPrice_T+1 and offset at the @ closePrice_T+1 if 
