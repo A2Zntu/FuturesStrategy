@@ -44,34 +44,27 @@ Performance
 -------------- 
 * Strategy1: 
  ![alt text](https://github.com/A2Zntu/FuturesStrategy/blob/master/Graph/BuyandHold.png "BuyandHold")
-  * HPR: 0.0531
-  * APR: 0.0179
-  * Sharp Ratio: 0.0434
-  * mdd: -0.314
+
  
 * Strategy2: 
  ![alt text](https://github.com/A2Zntu/FuturesStrategy/blob/master/Graph/Strategy2.png "Strategy2")
-  * HPR: 0.2135
-  * APR: 0.0686
-  * Sharp Ratio: 0.5171
-  * mdd: -0.164
 
 * Strategy3: 
  ![alt text](https://github.com/A2Zntu/FuturesStrategy/blob/master/Graph/Strategy3.png "Strategy3")
-  * HPR: 0.0396
-  * APR: 0.0134
-  * Sharp Ratio: 0.033
-  * mdd: -0.1384
-
+ 
 * Strategy4: 
  ![alt text](https://github.com/A2Zntu/FuturesStrategy/blob/master/Graph/Strategy4.png "Strategy4")
-  * HPR: 0.1710
-  * APR: 0.0556
-  * Sharp Ratio: 0.6735
-  * mdd: -0.0869
+
 
 Conclusion
 -------------- 
+| Strategy  | HPR    | APR    | Sharp Ratio | MDD |
+| ---       | ---    |   ---  |   ---  | ---    |
+| Strategy1 | 0.0531 | 0.0179 | 0.0434 | -0.314 |
+| Strategy2 | 0.2135 | 0.0686 | 0.5171 | -0.164 |
+| Strategy3 | 0.0396 | 0.0134 | 0.033  | -0.1384|
+| Strategy4 | 0.1710 | 0.0556 | 0.6735 | -0.0869|
+ 
 * From Sharp Ratio: We could see that the Strategy4 has the highest Sharp Ratio
 
 
